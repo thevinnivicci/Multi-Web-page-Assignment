@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f0f4f5;
+  background-image: url(./images/stethoscope.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: #1a9161;
+
+}
+a:hover {
+    font-weight: 900;
+    color: #26d992;
+    
+}
+.main {
+  /* height: 100%;
+    width: 100%; */
+}
+.nav {
+  height: 70px;
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav img {
+  height: 40px;
+  margin-right: 50em;
+}
+.navpart1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navpart1 h4 {
+  margin-right: 60px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.hero {
+  width: 100vw;
+
+  height: 600px;
+  /* background-color: red; */
+  display: flex;
+  /* flex-direction: column; */
+}
+.leftsection {
+  /* background-color: aqua; */
+  width: 50%;
+  padding: 60px 0px 0px 80px;
+  margin-top: 20px;
+}
+
+.topangle {
+  position: absolute;
+  margin-top: -30px;
+}
+.bottomangle {
+  position: absolute;
+  left: 50%;
+}
+h1 {
+  font-size: 80px;
+  line-height: 100px;
+}
+p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.btn {
+  margin-top: 30px;
+  padding: 11px 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: #20bc7e;
+  color: #fff;
+  font-size: 30px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: green;
+}
+.heroright {
+  /* background-color: rgb(165, 83, 83); */
+  width: 50%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.rightimage {
+  width: 60%;
+  height: 80%;
+}
+.circle {
+  width: 25%;
+  position: absolute;
+  right: 100px;
+  top: 180px;
+}
+.doctor {
+    /* background-color: #20bc7e; */
+  /* padding-top: 50px; */
+  width: 32%;
+  z-index: 3;
+  position: absolute;
+  right: 100px;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5%;
+  margin-top: 60px;
+}
+.about-content {
+  width: 50%;
+  text-align: center;
+}
+.aboutheading {
+  font-size: 32px;
+  color: #20bc7e;
+  margin: 0px 0px 20px;
+}
+
+.aboutp {
+  font-size: 18px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.box1 {
+  width: 200px;
+  height: 120px;
+  background-color: #f0f4f5;
+  box-shadow: 2px 2px 2px 2px gray;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.box1 h2 {
+  color: #20bc7e;
+}
+.box1 h3 {
+  font-weight: 600;
+  color: rgb(60, 60, 60);
+  text-transform: capitalize;
+}
+.box2 {
+  width: 200px;
+  height: 120px;
+  background-color: #f0f4f5;
+  box-shadow: 2px 2px 2px 2px gray;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.box2 h2 {
+  color: #20bc7e;
+}
+.box2 h3 {
+  font-weight: 600;
+  color: rgb(60, 60, 60);
+  text-transform: capitalize;
+}
+.box3 {
+  width: 200px;
+  height: 120px;
+  background-color: #f0f4f5;
+  box-shadow: 2px 2px 2px 2px gray;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.box3 h2 {
+  color: #20bc7e;
+}
+.box3 h3 {
+  font-weight: 600;
+  color: rgb(60, 60, 60);
+  text-transform: capitalize;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.form {
+  box-shadow: 2px 2px 2px 2px gray;
+  border-radius: 20px;
+  height: 550px;
+  width: 400px;
+  gap: 15px;
+}
+.formheading {
+  font-size: 2em;
+  text-align: center;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+}
+label {
+  font-size: 20px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+}
+.textmsg {
+  display: flex;
+  flex-direction: column;
+}
+.message-name {
+  font-size: 20px;
+}
+textarea {
+  border: none;
+  width: 300px;
+}
+.submit {
+  background-color: #20bc7e;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  padding: 10px 93px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.submit:hover {
+  background-color: #1a9161;
+}
